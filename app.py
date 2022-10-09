@@ -11,7 +11,6 @@ import joblib
 #### Defining Flask App
 app = Flask(__name__)
 
-
 #### Saving Date today in 2 different formats
 datetoday = date.today().strftime("%m_%d_%y")
 datetoday2 = date.today().strftime("%d-%B-%Y")
